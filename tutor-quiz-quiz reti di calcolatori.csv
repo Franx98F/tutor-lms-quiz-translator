@@ -1,0 +1,7 @@
+settings,"quiz reti di calcolatori","",0,minutes,,3,60,6,,,rand,,500
+question,"Caratteristiche della trasmissione dei dati e Teorema di Nyquist.","<p><br data-mce-bogus=\\\"1\\\"></p>",short_answer,1.00,1,1,1,
+question,"Descrivere il Teorema di Shannon","<p><br data-mce-bogus=\\\"1\\\"></p>",short_answer,1.00,2,1,1,
+question,"Descrivere l’architettura del modello OSI.","<p><br data-mce-bogus=\\\"1\\\"></p>",short_answer,1.00,3,1,1,
+question,"Descrivi l’algoritmo di Spanning Tree.","<p><br data-mce-bogus=\\\"1\\\"></p>",short_answer,1.00,4,1,1,
+question,"Che cosa è un router?","<p><br data-mce-bogus=\\\"1\\\"></p>",short_answer,1.00,5,1,1,
+question,"Che cos’è il “Routing”? Con che metodi si può realizzare? Quali sono le principali tipologie di algoritmi?","<p><br data-mce-bogus=\\\"1\\\"></p>",short_answer,1.00,6,1,1,
