@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# tutor-lms-quiz-translator
+
 A simple quiz translator of the worpdress plugin Tutor LMS
 =======
 
@@ -36,7 +35,7 @@ Activate virtual enviroment
 ```bash
   cd quizTranslate/Scripts
   source activate && cd ../..
-  pip install -r requirements.txt
+  pip install -r requirements.txt628485
 ```   
 ## Usage/Examples
 
@@ -48,14 +47,15 @@ Example:
   python quiz_translate.py "C:\Users\yourusername\Desktop\tutor-quiz-Sample Quiz.csv"
 ```
 It's done you will see a new csv translated file in the same directory of the cloned project.
+Now you only need to import/upload the new translated quiz into your tutor lms course and that's pretty much it. 
 
 
 ## Screenshots
 
-![App Screenshot]('../screenshots/original-csv.png')
+[Screenshot]('https://raw.githubusercontent.com/francesco-fortini/tutor-lms-quiz-translator/master/screenshots/original-csv.png')
 
-![App Screenshot]('../screenshots/command-line-interface.png')
+[Screenshot]('https://raw.githubusercontent.com/francesco-fortini/tutor-lms-quiz-translator/master/screenshots/command-line-interface.png')
 
-![App Screenshot]('../screenshots/translated-csv.png')
+[Screenshot]('https://raw.githubusercontent.com/francesco-fortini/tutor-lms-quiz-translator/master/screenshots/translated-csv.png')
 
 
