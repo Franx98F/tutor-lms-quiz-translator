@@ -15,6 +15,25 @@ test_conn_host = "https://google.com"
 original_q_list = []
 translated_q_list = []
 
+"""
+check_file_path: 
+Function that help to check if the user passed the file path(dragged in cli) correctly
+to the main program,if is not the case,it will immediately quit in order
+to avoid unexpected errors.
+"""
+def check_file_path(arg):
+    if len(arg) > 1:
+        print("\n[+]You have passed the file correctly!")
+    else:
+        print("\n[-]You have not dragged the file you wanted traslate")
+        print("[-]I am quitting the program..")
+        sys.exit(0)
+
+def check_csv_ext(file):
+    if file.endswith('.csv'):
+        return True
+    return False
+
 def isConnected(host):
     try:
         urllib.request.urlopen(host)
@@ -28,7 +47,7 @@ def translateQ(words,lang):
         return translated_text
 
 def choseLanguage():
-    print("[+]Insert language for translation in ISO 639-1 format -> Example:")
+    print("\n[+]Insert language for translation in ISO 639-1 format -> Example:")
     print("[+]Italian -> it")
     print("[+]English -> en")
     print("[+]German -> de")
@@ -47,6 +66,13 @@ def getNewPath(path):
     
 def main():
     try:
+        check_file_path(absolute_path_csv)
+        if check_csv_ext(absolute_path_csv):
+            print("\n[+]You have chosen a csv file as it should be")
+        else:
+            print("\n[-]...But You have not chosen a csv file.")
+            sys.exit(0)
+        
         lang = choseLanguage()
 
         with open(absolute_path_csv, 'r', encoding='utf-8') as orig_csv:
@@ -97,7 +123,7 @@ def main():
         sys.exit(0)
 
     except KeyboardInterrupt:
-        print("[-] CRTL+C => aborting the script")
+        print("\n\n[-] CRTL+C => aborting the script")
         sys.exit(0)
 
 if __name__ == '__main__':
