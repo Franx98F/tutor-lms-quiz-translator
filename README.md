@@ -54,7 +54,7 @@ Now you only need to import/upload the new translated quiz into your tutor lms c
 
 ![image](https://raw.githubusercontent.com/francesco-fortini/tutor-lms-quiz-translator/master/screenshots/original-csv.png)
 
-![image](https://raw.githubusercontent.com/francesco-fortini/tutor-lms-quiz-translator/master/screenshots/command-line-interf!ace.png)
+![image](https://raw.githubusercontent.com/francesco-fortini/tutor-lms-quiz-translator/master/screenshots/command-line-interface.png)
 
 ![image](https://raw.githubusercontent.com/francesco-fortini/tutor-lms-quiz-translator/master/screenshots/translated-csv.png)
 
