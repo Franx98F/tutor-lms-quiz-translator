@@ -7,7 +7,7 @@ A simple quiz translator of the worpdress plugin Tutor LMS
 This script helps everyone who manage courses using Tutor LMS plugin on WordPress sites.
 Whenever you have the need to translate an exported quiz, you have to make sure not change the default csv structure. 
 Personally i tried any online services that provides a .csv and .xlsx translation but without success because the original structure changed even if the words themselves were sucessfully translated.
-When you are using this script, it will help you translate each word of each questions, only that without touching the quiz csv, in addition it will be created a new csv file translated as the final result (a copy from the original one) ready for the import in your LMS.
+When you are using this script, it will help you translate each word of each questions, only that... without touching the quiz csv, in addition it will be created a new csv file translated as the final result (a copy from the original one) ready for the import in your LMS.
 
 
 ## Installation 
