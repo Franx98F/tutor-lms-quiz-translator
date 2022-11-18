@@ -33,7 +33,7 @@ Activate virtual enviroment
 ```bash
   cd quizTranslate/Scripts
   source activate && cd ../..
-  pip install -r requirements.txt628485
+  pip install -r requirements.txt
 ```   
 ## Usage/Examples
 
