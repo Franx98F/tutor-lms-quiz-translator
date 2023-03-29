@@ -1,5 +1,5 @@
 
-A simple quiz translator of the worpdress plugin Tutor LMS
+A simple quiz translator of the Wordpress plugin Tutor LMS
 =======
 
 This script helps everyone who manage courses using Tutor LMS plugin on WordPress sites.
