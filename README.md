@@ -15,7 +15,7 @@ It requires Python 3.6+ installed on your Operating System.
 Without virtual enviroment
 
 ```bash
-  git clone https://github.com/francesco-fortini/tutor-lms-quiz-translator
+  git clone https://github.com/franx98f/tutor-lms-quiz-translator
   cd translate-tutor-lms-quiz
   pip install -r requirements.txt
 ```
@@ -23,7 +23,7 @@ Without virtual enviroment
 With virtual enviroment
 
 ```bash
-  git clone https://github.com/francesco-fortini/tutor-lms-quiz-translator
+  git clone https://github.com/franx98f/tutor-lms-quiz-translator
   cd translate-tutor-lms-quiz
   python -m venv quizTranslate
 ```   
